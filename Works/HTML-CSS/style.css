@@ -1,5 +1,10 @@
-.works{}
-.contanier{}
+.works{
+    display: inline-block;
+}
+.contanier{
+    display:flex;
+    justify-content: center;
+}
 .works-head{}
 .head-box{}
 .works-main{}
