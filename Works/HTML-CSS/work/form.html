@@ -4,30 +4,45 @@
    <link rel="stylesheet" href="form.css">
     <title>Telebe Qeydiyyat Formu</title>
 </head>
-<body class="form">
-    <section>
-        <h1 class="heading">Telebe Qeydiyyat Formu</h1>
-        <div>
-            <input type="text">
-            <label for="fist name">Ad</label>
-        </div>
-        <div>
-            <input type="text">
-            <label for="last name">Soyad</label>
-        </div>
-        <div>
-            <input type="email">
-            <label for="email">Email</label>
-        </div>
-        <div>
-            <input type="date">
-            <label for="Date">Dogum tarixi</label>
-        </div>
-        <div>
-            <input type="city">
-            <label for="Yasadigi seher">Yasadigi seher</label>
-        </div>
-    </section>
-    
+<h1>Telebe Qeydiyyat Formu</h1>
+<body class="titac">
+    <form action="#">
+        <label for="fname">Ad:</label>
+        <br>
+        <input type="text" id="kartof" name="kartof" placeholder="Ad">
+        <br>
+        <label for="lname">Soyad:</label>
+        <br>
+        <input type="text" id="lname" name="lname" placeholder="Soyad">
+        <br><br>
+        <label for="text">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="email">
+        <br><br>
+        <label for="Haqqinda melumat">Haqqinda melumat:</label>
+        <br>
+        <textarea name="Haqqinda melumat" id="haqqinda melumat" cols="30" rows="5"></textarea>
+        <br>
+        <br><br>
+        <label for="Dogum tarixi">Dogum tarixi</label>
+        <br>
+        <input type="datetime-local">
+        <br><br>
+        <select name="Şəhər" id="şəhər">
+            <option value="Baki">Baki</option>
+            <option value="Qazax">Qazax</option>
+            <option value="Quba">Quba</option>
+        </select>
+        <br><br>
+        <label for="cinsiyyet">Cinsiyyet:</label>
+        <br>
+        <input type="radio" name="kisi" value="Kisi">
+        <label for="kisi">Kisi</label>
+        <input type="radio" name="qadin" value="Qadin">
+        <label for="Qadin">Qadin</label>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+   
 </body>
 </html>
