@@ -1,28 +1,26 @@
 /* navbar style start */
+
 .navbar{
-background-image: url("./image/slide-bg-1.jpg");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-}
-.navbar-container{
-display: flex;
-justify-content: space-between;
-}
-.container-head{
-display: flex;
-justify-content: center;
-}
-.container-head a{
+    position: relative;
     outline: none;
     text-decoration: none ;
     color: white;
     margin: 20px;
     margin-left: 55px;
-    font-family: 'Kaushan Script', cursive;
     font-size: 32px;
-    font-weight: 600;   
-
+    font-weight: 600;
+}
+.navbar  .container-head a{
+    position: absolute;
+    padding: 5px 10px;
+    margin: 30px 30px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+}
+.navbar-container{
+display: flex;
+justify-content: space-between;
 }
 .info-item{
     display: flex;
@@ -48,6 +46,10 @@ justify-content: center;
 /* navbar style end */
 /* section home style start */
 .home{
+    background-image: url("./image/slide-bg-1.jpg");
+    background-repeat: no-repeat;
+    height:;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -63,11 +65,23 @@ justify-content: center;
     font-family: 'Poppins', sans-serif;
 
 }
-.social{
+.social{ 
+    position: absolute;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    margin: 20px;
+}
+.social .icon-link{
+    display: flex;
+    padding: 10px 120px;
+    gap:30px;
+    
+}
+.social .down{
+    padding-top: 100px;
 }
 .social a{
     padding-left: 7px;
@@ -82,4 +96,55 @@ justify-content: center;
     color: #ffffff;
 }
 /* section home style end */
+/* profile style start */
+.full-profil{
+display: flex;
+justify-content: space-between;
+margin:140px 40px;
+position: relative;
+gap: 30px;
+padding-right: 10px;
+}
+.profil-container{
+   
+}
+.profil-img{
+box-sizing: border-box;
+width: 100%;
+margin: 20px 20px;
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.text-box h1{
+font-family: 'Kaushan Script', cursive;
+font-size: 44px;
+line-height: 56px;
+}
+.text-box p{
+    margin: 25px 0;
+    padding: 0;
+    font-size: 15px;
+    color: #999999;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+.text-box a{
+    text-decoration: none;
+    text
+    box-shadow: #fdd912;
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.text-box .
+a :hover{
+    color: #fdd912;
+}
 
