@@ -106,12 +106,13 @@ gap: 30px;
 padding-right: 10px;
 }
 .profil-container{
-   
+    background-size: 100px;
+   height:100%;
+   margin: 100px 0;
 }
 .profil-img{
-box-sizing: border-box;
 width: 100%;
-margin: 20px 20px;
+margin: 50px 20px;
 }
 .text-container{
     display: flex;
@@ -204,9 +205,9 @@ a :hover{
 /* section service style end */
 /* section recent works style start */
 .recentworks{
-margin: 0 auto;
+position: relative;
 width: 100%;
-height: 100vh;
+margin: 120px 0;
 }
 .works-container{
 width: 100%;
@@ -220,9 +221,8 @@ margin: 20px 40px;
 .works-item{
  
 }
-.works-item .label{
+.works-item .works-bar{
 list-style: none;
-display: flex;
 gap: 20px;
 padding-top: 20px;
 margin: 0 30px;
@@ -230,13 +230,61 @@ font-family:'Poppins', helvetica;
 color: grey;
 cursor: pointer;
 }
+.works-item .works-bar ul{
+    display: flex;
+    gap: 20px;
+}
+.works-item .works-bar ul>li:hover{
+color: #fdd912;
+}
 .works-main-img{
-    margin: 20px auto;
-    background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 30px;
-    gap:30px;
+    grid-template-columns:1fr 1fr;
+    padding: 20px;
+    
+}
+/* latest blogs style start */
+.latest-blogs{
+    margin: 0% auto;
+    background: #f9f9f9;
+    width: 100%;
+    height: 100vh;
+    
+}
+.blogs-container{
+
+}
+.container-main{
+    display: flex;
+    margin: 0 17px;
+}
+.container-main img{
+    background-size: cover;
+}
+.container-main h2{
+    display: block;
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Poppins', helvetica;
+    color: #292929;
+    cursor: pointer;
+}
+.container-main p{
+    margin: 20px 0;
+    font-family: 'Poppins', helvetica;
+    color: grey;
+}
+.container-main span{
+    color: grey;
+    font-family: 'Poppins', helvetica;
+    font-size: 12px;
+    font-weight: 400;
+}
+.blogs-container-head{
+    font-family: 'Kaushan Script', helvetica;
+    font-size: 30px;
+    margin: 30px 15px;
+    
+
 }
