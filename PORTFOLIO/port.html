@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- header section start -->
-    <header class="navbar" id="navbar">
+    <section class="navbar" id="navbar">
         <!-- navbar section start -->
         <div class="navbar-container">
             <div class="container-head">
@@ -24,42 +24,40 @@
             </div>
             <div class="container-info">
                 <ul class="info-item">
-                    <li>About</li>
-                    <li>What i Do</li>
-                    <li>Wokrs</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                   <li><a href="#About">About</a></li>
+                   <li><a href="#What I Do">What I Do</a></li>
+                   <li><a href="#Works">Works</a></li>
+                   <li><a href="#blog">Blog</a></li>
+                   <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
+    </section>   
         <!-- navbar section end -->
         <!-- home section start -->
-        <section class="home" id="home">
-            
-            <div class="container">
-                <div class="home-content">
-                    <div class="content-head">
+    <section class="home" id="home">   
+        <div class="container">
+            <div class="home-content">
+                <div class="content-head">
                         <span>Developer</span>
-                    </div>
-                    <div class="social">
-                        <div class="icon-link">
+                </div>
+                <div class="social">
+                    <div class="icon-link">
                             <a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                             <a target="blank" href="https://github.com/"><i class="fab fa-github"></i></a>
                             <a target="blank" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
                             <a target="blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
-                        </div>
-                        <div class="down">
-                            <a href="#"><i class="fas fa-chevron-down"></i></a>
-                        </div>
                     </div>
-                </div>    
-            </div>
-        </section>
-        <!-- home section end -->
-    </header>
-    <!-- header end -->
+                    <div class="down">
+                            <a href="#"><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <!-- home section end -->
     <!-- profile section start -->
-    <section class="full-profil">
+    <section class="full-profil" id="About">
         <div class="profil-container">
             <div class="profile-img">
                 <img src="./image/profile.jpg" alt="">
@@ -85,7 +83,7 @@
     </section>
     <!-- profile section end -->
     <!-- section servis start -->
-    <div class="section-servis" id="servis">
+    <div class="section-servis" id="What I Do">
         <div class="servis-container">
             <div class="titles">
                 <div class="title">What I Do</div>
@@ -150,7 +148,7 @@
     </div>
     <!-- section service end -->
     <!-- section recent works start -->
-    <section class="recentworks">
+    <section class="recentworks" id="Works">
         <div class="works-container">
             <div class="wcontainer-head">
                 <h1>Recent Works</h1>
@@ -176,7 +174,7 @@
     </section>
     <!-- recent works section end -->
     <!-- latest blog section start -->
-    <section class="latest-blogs">
+    <section class="latest-blogs" id="blog">
         <div class="blogs-container">
             <div class="blogs-container-head">
                 <h1>Latest Blogs</h1>
@@ -202,6 +200,42 @@
                 </div>
             </div>    
         </div>
+    </section>
+    <!-- latest blog section end -->
+    <!-- contact section start -->
+    <section id="contact">
+        <div class="contact-main">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contacts">
+            <div class="form-element">
+            <input type="text" name="Name" placeholder="Name*">
+            </div>
+            <div class="form-element">
+            <input type="text" name="Email" placeholder="Email*"> 
+            </div>
+            <div class="form-element">
+            <input type="text" name="Phone" placeholder="Phone*">
+            </div>
+            <div class="form-element">
+            <input type="text" name="Subject" placeholder="Subject*">
+            </div>
+            <div class="form-element">
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+        </div>
+        <div class="sendm">
+            <a href="">SEND MESSAGE</a>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="icon-links">
+            <a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a target="blank" href="https://github.com/"><i class="fab fa-github"></i></a>
+            <a target="blank" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+            <a target="blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+        </div>
+        <div>© 2018 Hendrix. all rights reserved.</div>    
     </section>
 </body>
 </html>
